@@ -7,7 +7,9 @@
   *  `npm install -g aws-cdk`
   *  `cdk diff -c name=springtrader`
   *  `cdk deploy -c name=springtrader`
-* TODO: eks from cloud9
+  *   Review <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/resources?filteringText=&filteringStatus=active&viewNested=true&hideStacks=false&stackId=arn%3Aaws%3Acloudformation%3Aus-east-1%3A489130170427%3Astack%2Fspringtrader%2F99fbb780-109a-11ea-a2a8-0e0494eb61ff" target="_blank">CloudFormation</a>
+* Review EKS resources
+  * `aws eks update-kubeconfig --name lead`
   * `k -n reinvent19-staging get po`
   * `k -n reinvent19-staging get vs`
 * <a href="https://springtrader.reinvent19-staging.lead.prod.liatr.io/spring-nanotrader-web" target="_blank">Try it!</a>
